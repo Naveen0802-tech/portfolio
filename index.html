@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfolio</title>
+  <meta name="description" content="" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg-glow"><span></span><span></span></div>
+  <header class="nav">
+    <a href="#home" class="logo" id="logo"></a>
+    <nav id="nav-links">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button id="theme-toggle" aria-label="Toggle theme">◐</button>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <p class="eyebrow">Hello, I'm</p>
+      <h1 id="hero-name"></h1>
+      <h2 class="typing"><span id="typed"></span><span class="caret">|</span></h2>
+      <p id="hero-headline" class="muted"></p>
+      <div class="cta">
+        <a class="btn primary" href="#contact">Get in touch</a>
+        <a class="btn" href="#projects">View projects</a>
+      </div>
+      <div id="stats" class="stats"></div>
+    </section>
+
+    <section id="about"><h2 class="title">About</h2><div id="about-body"></div></section>
+    <section id="skills"><h2 class="title">Skills</h2><div id="skills-grid" class="grid"></div></section>
+    <section id="experience"><h2 class="title">Experience</h2><div id="timeline" class="timeline"></div></section>
+    <section id="projects"><h2 class="title">Projects</h2><div id="projects-grid" class="grid"></div></section>
+    <section id="education">
+      <h2 class="title">Education &amp; Certifications</h2>
+      <div id="edu-list" class="grid"></div>
+      <h3 class="subtitle">Certifications</h3>
+      <div id="cert-list" class="grid"></div>
+    </section>
+    <section id="contact">
+      <h2 class="title">Contact</h2>
+      <div id="contact-links" class="cta"></div>
+    </section>
+  </main>
+
+  <footer id="footer"></footer>
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
