@@ -9,7 +9,8 @@ window.PORTFOLIO_DATA = {
     "roles": ["Full-Stack Developer", "Node.js Engineer", "React.js Developer", "Generative AI Builder"],
     "email": "nthanna1234@gmail.com",
     "phone": "7987352478",
-    "linkedin": "https://linkedin.com/in/naveen-dhakad-47b986241",
+    "github": "https://github.com/Naveen0802-tech",
+    "linkedin":"https://linkedin.com/in/naveen-dhakad-47b986241",
     "location": "Noida, India",
     "summary": [
       "Full-Stack Developer with 4+ years of experience building scalable web applications and production-ready solutions using Node.js, Express.js, React.js, TypeScript, MongoDB, Redis, Elasticsearch, Docker, and AWS.",
